@@ -1,6 +1,0 @@
-{
-  "name": "ProjectMatch - G-P Meridian Contractor",
-  "description": "Contingent workforce marketplace powered by G-P Meridian Contractor and Indeed, bridging global hiring, contracts, and compliant payouts.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
