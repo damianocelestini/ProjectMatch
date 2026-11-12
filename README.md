@@ -1,5 +1,5 @@
 # Contractor Express — ProjectMatch (powered by Indeed)
-*Interactive Product Prototype & Case Study* · **[Read the Full PRD (PRD.md)](./PRD.md)**
+*Interactive Product Prototype & Case Study* · **[Read the Full PRD (PRD.md)](./PRD.md)** · **[Live prototype here](https://damianocelestini.github.io/ProjectMatch/)**
 
 **ProjectMatch** is a product expansion concept for **Contractor Express** in partnership with **Indeed**. It connects contractor sourcing on Indeed with Contractor Express's localized DocuSign contracts and cross-border payouts so hiring teams and contractors can move from job post to active contract in one workflow.
 
