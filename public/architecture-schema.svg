@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" width="100%" height="100%" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0f284e" />
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b" />
+    </marker>
+    <marker id="arrow-emerald" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#047857" />
+    </marker>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="112%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.05" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1080" height="560" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="540" y="46" text-anchor="middle" font-size="20" font-weight="800" fill="#0f172a" letter-spacing="-0.3">
+    Contractor Express · Product Architecture
+  </text>
+  <text x="540" y="70" text-anchor="middle" font-size="13" font-weight="500" fill="#64748b">
+    End-to-end contingent workforce flow across users, AI workflows, and partner rails
+  </text>
+
+  <!-- Column Headers -->
+  <text x="165" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.2">
+    USER PERSONAS
+  </text>
+  <text x="540" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#0f284e" letter-spacing="1.2">
+    CONTRACTOR EXPRESS PLATFORM
+  </text>
+  <text x="915" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.2">
+    EXTERNAL INTEGRATIONS
+  </text>
+
+  <!-- Center Platform Container -->
+  <rect x="355" y="128" width="370" height="392" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4" />
+
+  <!-- ================= LEFT COLUMN: USER PERSONAS ================= -->
+
+  <!-- Card 1: Hiring Customer -->
+  <g filter="url(#card-shadow)">
+    <rect x="55" y="165" width="220" height="130" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="55" y="165" width="6" height="130" rx="3" fill="#0f284e" />
+    <text x="80" y="202" font-size="15" font-weight="700" fill="#0f172a">Hiring Customer</text>
+    <text x="80" y="224" font-size="12" font-weight="500" fill="#64748b">• Post Projects</text>
+    <text x="80" y="244" font-size="12" font-weight="500" fill="#64748b">• Screen &amp; Onboard</text>
+    <text x="80" y="264" font-size="12" font-weight="500" fill="#64748b">• Approve Invoices</text>
+  </g>
+
+  <!-- Card 2: Independent Contractor -->
+  <g filter="url(#card-shadow)">
+    <rect x="55" y="345" width="220" height="130" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="55" y="345" width="6" height="130" rx="3" fill="#047857" />
+    <text x="80" y="382" font-size="15" font-weight="700" fill="#0f172a">Contractor</text>
+    <text x="80" y="404" font-size="12" font-weight="500" fill="#64748b">• 1-Click Apply</text>
+    <text x="80" y="424" font-size="12" font-weight="500" fill="#64748b">• Invite External Client</text>
+    <text x="80" y="444" font-size="12" font-weight="500" fill="#64748b">• Track Payouts</text>
+  </g>
+
+  <!-- ================= CENTER COLUMN: CORE PLATFORM ================= -->
+
+  <!-- Module 1: ProjectMatch Marketplace -->
+  <g filter="url(#card-shadow)">
+    <rect x="385" y="152" width="310" height="96" rx="12" fill="#0f284e" />
+    <text x="540" y="186" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">
+      ProjectMatch Marketplace
+    </text>
+    <text x="540" y="208" text-anchor="middle" font-size="12" font-weight="500" fill="#cbd5e1">
+      Talent Directory · Candidate Pipeline
+    </text>
+    <text x="540" y="228" text-anchor="middle" font-size="11" font-weight="600" fill="#6ee7b7">
+      2-Sided Discovery &amp; Shortlisting
+    </text>
+  </g>
+
+  <!-- Module 2: AI Assist Layer -->
+  <g filter="url(#card-shadow)">
+    <rect x="385" y="276" width="310" height="96" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" />
+    <text x="540" y="310" text-anchor="middle" font-size="15" font-weight="700" fill="#065f46">
+      AI Co-Pilot Engine
+    </text>
+    <text x="540" y="332" text-anchor="middle" font-size="12" font-weight="500" fill="#047857">
+      Scope &amp; Rate Benchmark · Resume Fit
+    </text>
+    <text x="540" y="352" text-anchor="middle" font-size="11" font-weight="600" fill="#059669">
+      1-Click Tailored Pitch Generation
+    </text>
+  </g>
+
+  <!-- Module 3: Contracts & Billing Core -->
+  <g filter="url(#card-shadow)">
+    <rect x="385" y="400" width="310" height="96" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" />
+    <text x="540" y="434" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">
+      Contracts &amp; Invoices Core
+    </text>
+    <text x="540" y="456" text-anchor="middle" font-size="12" font-weight="500" fill="#475569">
+      Localized Agreements · Compliance
+    </text>
+    <text x="540" y="476" text-anchor="middle" font-size="11" font-weight="700" fill="#0f284e">
+      $39/mo per Active Contractor
+    </text>
+  </g>
+
+  <!-- Internal Vertical Connectors in Center Column -->
+  <line x1="540" y1="248" x2="540" y2="274" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-slate)" marker-start="url(#arrow-slate)" />
+  <line x1="540" y1="372" x2="540" y2="398" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-slate)" />
+
+  <!-- ================= RIGHT COLUMN: EXTERNAL INTEGRATIONS ================= -->
+
+  <!-- Integration 1: Indeed -->
+  <g filter="url(#card-shadow)">
+    <rect x="805" y="152" width="220" height="96" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="805" y="152" width="6" height="96" rx="3" fill="#2563eb" />
+    <text x="830" y="186" font-size="15" font-weight="700" fill="#0f172a">Indeed Network</text>
+    <text x="830" y="208" font-size="12" font-weight="500" fill="#64748b">Job Syndication</text>
+    <text x="830" y="226" font-size="11" font-weight="600" fill="#2563eb">Sponsored Boost ($4/day)</text>
+  </g>
+
+  <!-- Integration 2: DocuSign -->
+  <g filter="url(#card-shadow)">
+    <rect x="805" y="276" width="220" height="96" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="805" y="276" width="6" height="96" rx="3" fill="#4f46e5" />
+    <text x="830" y="310" font-size="15" font-weight="700" fill="#0f172a">DocuSign</text>
+    <text x="830" y="332" font-size="12" font-weight="500" fill="#64748b">E-Signature Envelopes</text>
+    <text x="830" y="350" font-size="11" font-weight="600" fill="#4f46e5">Country-Specific Terms</text>
+  </g>
+
+  <!-- Integration 3: Payment Rails -->
+  <g filter="url(#card-shadow)">
+    <rect x="805" y="400" width="220" height="96" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="805" y="400" width="6" height="96" rx="3" fill="#059669" />
+    <text x="830" y="434" font-size="15" font-weight="700" fill="#0f172a">Global Payment Rails</text>
+    <text x="830" y="456" font-size="12" font-weight="500" fill="#64748b">Cross-Border Settlement</text>
+    <text x="830" y="474" font-size="11" font-weight="600" fill="#059669">Multi-Currency Payouts</text>
+  </g>
+
+  <!-- ================= HORIZONTAL FLOW ARROWS ================= -->
+
+  <!-- Customer -> ProjectMatch -->
+  <path d="M 275 205 L 381 205" fill="none" stroke="#0f284e" stroke-width="2" marker-end="url(#arrow-navy)" />
+  <text x="328" y="196" text-anchor="middle" font-size="10" font-weight="600" fill="#0f284e">Post &amp; Hire</text>
+
+  <!-- Customer -> Contracts & Invoices -->
+  <path d="M 275 255 L 320 255 L 320 435 L 381 435" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-slate)" />
+
+  <!-- Contractor -> ProjectMatch -->
+  <path d="M 275 385 L 335 385 L 335 225 L 381 225" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-emerald)" />
+  <text x="315" y="376" text-anchor="middle" font-size="10" font-weight="600" fill="#047857">Apply</text>
+
+  <!-- Contractor -> Contracts & Invoices -->
+  <path d="M 275 455 L 381 455" fill="none" stroke="#047857" stroke-width="1.5" marker-end="url(#arrow-emerald)" />
+  <text x="328" y="446" text-anchor="middle" font-size="10" font-weight="600" fill="#047857">Invite &amp; Bill</text>
+
+  <!-- ProjectMatch <-> Indeed -->
+  <path d="M 695 200 L 801 200" fill="none" stroke="#0f284e" stroke-width="2" marker-end="url(#arrow-navy)" marker-start="url(#arrow-navy)" />
+  <text x="748" y="190" text-anchor="middle" font-size="10" font-weight="600" fill="#475569">Sync Jobs</text>
+
+  <!-- Contracts <-> DocuSign -->
+  <path d="M 695 430 L 750 430 L 750 324 L 801 324" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-slate)" />
+  <text x="748" y="314" text-anchor="middle" font-size="10" font-weight="600" fill="#475569">Sign</text>
+
+  <!-- Contracts -> Payment Rails -->
+  <path d="M 695 455 L 801 455" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-emerald)" />
+  <text x="748" y="446" text-anchor="middle" font-size="10" font-weight="600" fill="#047857">Payout</text>
+
+</svg>
