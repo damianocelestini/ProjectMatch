@@ -54,19 +54,3 @@ Use the **Persona Preview** toggle in the left sidebar to switch between both si
 - **Simulated partner integrations:** Indeed job syndication, DocuSign envelope generation, and cross-border payouts are simulated UI flows to demonstrate the end-to-end product experience.
 - **Zero-config AI features:** When hosted on GitHub Pages, the AI buttons use built-in client-side fallbacks so every flow works reliably without requiring an external API key or backend server.
 
----
-
-## 4. Running locally (optional)
-
-You can use the live **GitHub Pages link** directly in your browser. If you want to run the code locally on your machine:
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-2. **Start the local Vite server:**
-   ```bash
-   npx vite --port 3000
-   ```
-3. **Open in your browser:**
-   Navigate to **`http://localhost:3000`**
